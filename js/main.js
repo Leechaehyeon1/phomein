@@ -50,6 +50,8 @@ $(document).ready(function() {
       }
     }
 	});
+  
+  $('.swiper-pagination-bullet.swiper-pagination-bullet-active').css('background', '#db0d36')
 
 	//methods
 	$.fn.fullpage.setAllowScrolling(true);

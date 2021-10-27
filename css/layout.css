@@ -39,6 +39,7 @@ body {
   transform: translateY(-50%);
   max-width: 700px;
   width: 100%;
+  transition: 0.4s;
 }
 .header .gnb {
   display: flex;
@@ -57,6 +58,7 @@ body {
   top: 50%;
   right: 50px;
   transform: translateY(-50%);
+  transition: 0.4s;
 }
 .header .btn_franchisee {
   display: inline-block;
@@ -129,35 +131,6 @@ body {
   width: 1px;
   height: 100%;
   background: #ddd;
-}
-.header .mobile {
-  display: none;
-  position: absolute;
-  top: 50%;
-  right: 30px;
-  width: 30px;
-  height: 24px;
-  transform: translateY(-50%);
-  cursor: pointer;
-}
-.header .mobile i {
-  position: absolute;
-  right: 0;
-  width: 15px;
-  height: 1px;
-  background: #fff;
-}
-.header .mobile i:nth-of-type(1) {
-  top: 4px;
-  width: 21px;
-}
-.header .mobile i:nth-of-type(2) {
-  top: 13px;
-  width: 15px;
-}
-.header .mobile i:nth-of-type(3) {
-  top: 21px;
-  width: 21px;
 }
 
 /* footer css */
